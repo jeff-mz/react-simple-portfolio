@@ -4,13 +4,13 @@ import { HiMiniWrenchScrewdriver } from "react-icons/hi2";
 
 function About() {
   return (
-    <section className="w-full flex flex-col mobile:flex-row mobile:justify-between laptop:items-center ">
+    <section className="w-full h-max  flex flex-col mobile:flex-row mobile:justify-between laptop:items-center ">
       <img
         src={hero}
         alt="a developer behind laptop working on website "
-        className="max-w-52  mobile:max-w-[48%] mx-auto"
+        className="max-w-52  mobile:max-w-[40%] mobile:h-auto "
       />
-      <div className="mobile:max-w-[48%]">
+      <div className="mobile:max-w-[50%]">
         <h1 className="w-full text-left font-['Krub'] desktop:leading-normal text-light text-3xl desktop:text-5xl font-bold">
           Nice to meet you! <br /> I'm
           <span className="inline mx-2 underline decoration-wavy decoration-green-pale">
