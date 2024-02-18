@@ -1,40 +1,40 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className=" w-full h-16 mx-auto p-2 ">
       <ul className=" w-full mx-auto flex flex-wrap items-center justify-evenly mt-3 text-sm font-medium text-gray-200n">
         <li>
-          <a
-            href="#"
+          <Link
+            to="/"
             className="hover:underline text-sm mobile:text-[15px] desktop:text-2xl "
           >
             About
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/skills"
             className="hover:underline text-sm mobile:text-[15px] desktop:text-2xl "
           >
             Skills
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/projects"
             className="hover:underline text-sm mobile:text-[15px] desktop:text-2xl "
           >
             Projects
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/contact"
             className="hover:underline text-sm mobile:text-[15px] desktop:text-2xl "
           >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </footer>

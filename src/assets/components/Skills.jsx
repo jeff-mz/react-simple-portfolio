@@ -1,42 +1,34 @@
-import React, { useEffect, useState } from "react";
-import skills from "../skills.json";
+import React from "react";
+import SkillCard from "./SkillCard";
+
 function Skills() {
-  const [MySkills, setMySkills] = useState([]);
-  useEffect(() => {
-    setMySkills(skills.skills);
-    // console.log(MySkills);
-  }, []);
-
   return (
-    <>
-      {MySkills.map((skill) => {
-        return (
-          <div
-            key={skill.id}
-            className=" w-[100%] mobile:w-[40%] laptop:w-[30%] p-2 bg-slate-300 my-2 flex justify-start  items-start rounded-md"
-          >
-            <img
-              src={skill.icon}
-              alt="developing icon"
-              className="w-20 h-24 mr-3"
-            />
-            <div className="w-[90%] h-20 flex items-start flex-col justify-evenly">
-              <h3 className=" font-bold text-2xl ">{skill.title}</h3>
-              <p className="font-medium text-sm ">{skill.experience}</p>
-
-              <div className=" w-[80%] bg-gray-600 rounded-md">
-                <div
-                  className="bg-green-light text-xs font-medium text-blue-100 text-center leading-none rounded-md"
-                  style={{ width: `${skill.progress}` }}
-                >
-                  {skill.progress}
-                </div>
-              </div>
-            </div>
-          </div>
-        );
-      })}
-    </>
+    <section className="w-full">
+      <div className="w-[100%] grid grid-cols-2 grid-rows-5 mobile:grid-cols-3 mobile:grid-rows-3 text-center ">
+        <SkillCard />
+      </div>
+      <button
+        type="button"
+        className="text-green-light bg-darkBlue my-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+      >
+        See Projects
+        <svg
+          className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 10"
+        >
+          <path
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9"
+          />
+        </svg>
+      </button>
+    </section>
   );
 }
 
