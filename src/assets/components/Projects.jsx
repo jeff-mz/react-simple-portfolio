@@ -22,8 +22,12 @@ function Projects() {
                   {project.title}
                 </p>
                 <div>
-                  <FaGithub className="inline text-2xl text-green-pale hover:text-green-light" />
-                  <FaExternalLinkAlt className="inline text-2xl text-green-pale hover:text-green-light mx-4" />
+                  <a href={project.source}>
+                    <FaGithub className="inline text-2xl text-green-pale hover:text-green-light" />
+                  </a>
+                  <a href={project.demo}>
+                    <FaExternalLinkAlt className="inline text-2xl text-green-pale hover:text-green-light mx-4" />
+                  </a>
                 </div>
               </div>
               <p className="font-bold text-light text-sm m-4">{project.desc}</p>

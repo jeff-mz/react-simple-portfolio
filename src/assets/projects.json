@@ -4,72 +4,96 @@
       "title": "Build Master",
       "desc": "Html static website ",
       "img": "https://i.postimg.cc/hvqy1KML/Build-Masters.png",
+      "demo": "https://venerable-cat-984ff8.netlify.app/",
+      "source": "https://github.com/jeff-mz/build-masters",
       "id": "001"
     },
     {
       "title": "Form",
       "desc": "Html checkout form",
       "img": "https://i.postimg.cc/wTQPFRC7/checkout-form.png",
+      "demo": "https://thriving-treacle-c048a3.netlify.app/",
+      "source": "https://github.com/jeff-mz/checkout-form",
       "id": "002"
     },
     {
       "title": "Portfolio",
       "desc": "Photography portfolio",
       "img": "https://i.postimg.cc/NF7NNZPW/photographer-portofilo.png",
+      "demo": "https://sweet-pixie-35a204.netlify.app/",
+      "source": "https://github.com/jeff-mz/photographer-portfolio",
       "id": "003"
     },
     {
       "title": "Calculator App",
       "desc": "Javascript calculator app",
       "img": "https://i.postimg.cc/jdbmz4kp/calculator-app-challenge.png",
+      "demo": "https://stirring-pastelito-f399e3.netlify.app/",
+      "source": "https://github.com/jeff-mz/calculator-with-js",
       "id": "004"
     },
     {
       "title": "Intro Page",
       "desc": "Responsive intro page",
       "img": "https://i.postimg.cc/XYNPP7Wx/Intro-page-challenge.png",
+      "demo": "https://intr0-page-challeng.netlify.app/",
+      "source": "https://github.com/jeff-mz/intro-page",
       "id": "007"
     },
     {
       "title": "Landing Page",
       "desc": "Responsive landing page",
       "img": "https://i.postimg.cc/N05zgJ5H/manage-landing-page-challenge.png",
+      "demo": "https://manage-landin.netlify.app/",
+      "source": "https://github.com/jeff-mz/manage-landing-page-challenge",
       "id": "008"
     },
     {
       "title": "News Homepage ",
       "desc": "Responsive home page",
       "img": "https://i.postimg.cc/4dc2cYv4/News-homepage-challenge.png",
+      "demo": "https://news-homepage-s0lution.netlify.app/",
+      "source": "https://github.com/jeff-mz/-News-homepage-",
       "id": "005"
     },
     {
       "title": "E-commerce",
       "desc": "Rtl, responsive shop",
       "img": "https://i.postimg.cc/HLRPjwyP/rtl-e-commerce.png",
+      "demo": "https://rtl-e-commerce.netlify.app/",
+      "source": "https://github.com/jeff-mz/farsi-e-commerce",
       "id": "006"
     },
     {
       "title": "Landing page",
       "desc": "Rtl landing page",
       "img": "https://i.postimg.cc/vZPKwFHy/rtl-landing-page.png",
+      "demo": "https://rtl-landing-page.netlify.app/",
+      "source": "https://github.com/jeff-mz/my-rtl-landing-page",
       "id": "009"
     },
     {
       "title": "E-commerce",
       "desc": "React shop website",
       "img": "https://i.postimg.cc/59vDYRp5/E-commerce-using-React.png",
+      "demo": "https://fluffy-mousse-9b82c8.netlify.app/",
+      "source": "https://github.com/jeff-mz/shop-website",
       "id": "009"
     },
     {
-      "title": "E-commerce",
-      "desc": "Static website ",
-      "img": "https://i.postimg.cc/59vDYRp5/E-commerce-using-React.png",
+      "title": "FAQ page",
+      "desc": "React FAQ page",
+      "img": "https://postimg.cc/xct41nWW",
+      "demo": "https://splendid-pony-b3aa11.netlify.app/",
+      "source": "https://github.com/jeff-mz/newsletter-signup-form",
       "id": "009"
     },
     {
-      "title": "E-commerce",
-      "desc": "Static website ",
-      "img": "https://i.postimg.cc/59vDYRp5/E-commerce-using-React.png",
+      "title": "Newsletter Form",
+      "desc": "Responsive newsletter",
+      "img": "https://postimg.cc/GHcfRHSF",
+      "demo": "https://majestic-starlight-27f75b.netlify.app/",
+      "source": "https://github.com/jeff-mz/react-FAQ-page",
       "id": "009"
     }
   ]
