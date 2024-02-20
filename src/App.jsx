@@ -16,31 +16,19 @@ function App() {
 
       {/* Pages start */}
       <Routes>
-        <Route
-          path="https://jmz-personal-website.netlify.app/"
-          element={<About />}
-        />
+        <Route path="/" element={<About />} />
       </Routes>
 
       <Routes>
-        <Route
-          path="https://jmz-personal-website.netlify.app/skills"
-          element={<Skills />}
-        />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
 
       <Routes>
-        <Route
-          path="https://jmz-personal-website.netlify.app/projects"
-          element={<Projects />}
-        />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
 
       <Routes>
-        <Route
-          path="https://jmz-personal-website.netlify.app/contact"
-          element={<Contact />}
-        />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       {/* Pages end */}
 

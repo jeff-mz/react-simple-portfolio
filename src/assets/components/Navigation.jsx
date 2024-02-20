@@ -19,7 +19,7 @@ function Navigation() {
       <ul className="flex justify-between w-1/2">
         <li>
           <a
-            href="https://huemint.com/"
+            href="https://github.com/jeff-mz"
             target="_blank"
             className="no-underline"
           >
@@ -28,7 +28,7 @@ function Navigation() {
         </li>
         <li>
           <a
-            href="https://huemint.com/"
+            href="https://www.linkedin.com/in/jafar-mirzapoor-b69b3b293/"
             target="_blank"
             className="no-underline"
           >
@@ -37,7 +37,7 @@ function Navigation() {
         </li>
         <li>
           <a
-            href="https://huemint.com/"
+            href="https://twitter.com/mzj8181"
             target="_blank"
             className="no-underline"
           >
@@ -46,7 +46,7 @@ function Navigation() {
         </li>
         <li>
           <a
-            href="https://huemint.com/"
+            href="https://wa.me/qr/G6DFXUI7MZ6QN1"
             target="_blank"
             className="no-underline"
           >
@@ -55,7 +55,7 @@ function Navigation() {
         </li>
         <li>
           <a
-            href="https://huemint.com/"
+            href="mailto:jafarmirzapoor11@gmail.com"
             target="_blank"
             className="no-underline"
           >

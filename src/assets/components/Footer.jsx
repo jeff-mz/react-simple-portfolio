@@ -6,7 +6,7 @@ function Footer() {
       <ul className=" w-full mx-auto flex flex-wrap items-center justify-evenly mt-3 text-sm font-medium text-gray-200">
         <li>
           <Link
-            to="https://jmz-personal-website.netlify.app/"
+            to="/"
             className="hover:underline text-sm mobile:text-[15px] desktop:text-2xl "
           >
             About
@@ -14,7 +14,7 @@ function Footer() {
         </li>
         <li>
           <Link
-            to="https://jmz-personal-website.netlify.app/skills"
+            to="/skills"
             className="hover:underline text-sm mobile:text-[15px] desktop:text-2xl "
           >
             Skills
@@ -22,7 +22,7 @@ function Footer() {
         </li>
         <li>
           <Link
-            to="https://jmz-personal-website.netlify.app/projects"
+            to="/projects"
             className="hover:underline text-sm mobile:text-[15px] desktop:text-2xl "
           >
             Projects
@@ -30,7 +30,7 @@ function Footer() {
         </li>
         <li>
           <Link
-            to="https://jmz-personal-website.netlify.app/contact"
+            to="/contact"
             className="hover:underline text-sm mobile:text-[15px] desktop:text-2xl "
           >
             Contact

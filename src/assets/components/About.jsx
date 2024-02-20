@@ -12,7 +12,7 @@ function About() {
       {/* hero text  */}
       <div className="w-full lg:w-1/2 md:ml-4">
         <h1 className="font-bold text-4xl text-light text-left xl:text-7xl xl:mb-10">
-          Hey there 👋{" "}
+          Hey there <span className="emoji">👋</span>
           <span className="block">
             my name is{" "}
             <span className="underline decoration-wavy decoration-green-pale font-bold ">
