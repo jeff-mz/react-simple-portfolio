@@ -22,10 +22,10 @@ function Projects() {
                   {project.title}
                 </p>
                 <div>
-                  <a href={project.source}>
+                  <a target="_blank" href={project.source}>
                     <FaGithub className="inline text-2xl text-green-pale hover:text-green-light" />
                   </a>
-                  <a href={project.demo}>
+                  <a target="_blank" href={project.demo}>
                     <FaExternalLinkAlt className="inline text-2xl text-green-pale hover:text-green-light mx-4" />
                   </a>
                 </div>
