@@ -11,13 +11,13 @@ import Skills from "./assets/components/Skills";
 
 function App() {
   return (
-    <main className="w-full h-screen  bg-dark-primary m-auto py-1 px-4 mobile:px-8 mobile:py-4 flex flex-col	 justify-between">
+    <main className="bg-dark-primary">
       <Navigation />
 
       {/* Pages start */}
       <Routes>
         <Route
-          path="https://jmz-personal-website.netlify.app"
+          path="https://jmz-personal-website.netlify.app/"
           element={<About />}
         />
       </Routes>

@@ -9,15 +9,15 @@ import {
 } from "react-icons/fa";
 function Navigation() {
   return (
-    <header className="max-w-full h-16 	flex justify-between items-center flex-col mobile:flex-row mobile:justify-between mobile:items-center px-5 py-1">
+    <header className=" container mx-auto flex justify-around py-4 items-center ">
       <img
         src={logo}
+        className=" w-16 h-16 md:w-20 md:h-20 xl:w-24 xl:h-24"
         alt="my logo created with j and m letters"
-        className="w-12"
       />
 
-      <ul className="max-w-40 flex justify-evenly ">
-        <li className="mx-2">
+      <ul className="flex justify-between w-1/2">
+        <li>
           <a
             href="https://huemint.com/"
             target="_blank"
@@ -26,7 +26,7 @@ function Navigation() {
             <FaGithub className="text-light hover:text-green-light desktop:text-3xl" />
           </a>
         </li>
-        <li className="mx-2">
+        <li>
           <a
             href="https://huemint.com/"
             target="_blank"
@@ -35,7 +35,7 @@ function Navigation() {
             <FaLinkedinIn className="text-light hover:text-green-light  desktop:text-3xl" />
           </a>
         </li>
-        <li className="mx-2">
+        <li>
           <a
             href="https://huemint.com/"
             target="_blank"
@@ -44,7 +44,7 @@ function Navigation() {
             <FaTwitter className="text-light hover:text-green-light  desktop:text-3xl" />
           </a>
         </li>
-        <li className="mx-2">
+        <li>
           <a
             href="https://huemint.com/"
             target="_blank"
@@ -53,7 +53,7 @@ function Navigation() {
             <FaWhatsapp className="text-light hover:text-green-light  desktop:text-3xl" />
           </a>
         </li>
-        <li className="mx-2">
+        <li>
           <a
             href="https://huemint.com/"
             target="_blank"

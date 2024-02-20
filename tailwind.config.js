@@ -11,15 +11,18 @@ export default {
       },
       colors: {
         dark: {
-          primary: "#252730",
-          secondary: "#282f32",
+          primary: "#29252C",
+          secondary: "#333146",
         },
         light: "#fcfffb",
         green: {
           light: "#6ee89e",
           pale: "#54e4ce",
         },
-        darkBlue: "#0e1b2a",
+        blue: {
+          dark: "#212A3E",
+          light: "#394867",
+        },
       },
     },
   },

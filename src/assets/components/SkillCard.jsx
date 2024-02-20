@@ -6,42 +6,52 @@ function SkillCard() {
   useEffect(() => {
     setMySkills(data.skills);
   }, []);
+
   return (
-    <>
+    <div className="w-full mx-auto flex items-center justify-center flex-col lg:grid grid-rows-3 grid-cols-2 gap-2 xl:grid-cols-3 xl:h-[90vh]">
       {mySkills.length < 1 ? (
-        <p className="text-center text-green-light text-xl font-medium tracking-widest animate-pulse ">
-          Loading...{" "}
+        <p className=" text-green-pale text-2xl font-bold text-center animate-pulse h-screen">
+          Loading...
         </p>
       ) : (
         mySkills.map((skill) => {
           return (
-            <div className="max-w-[180px] mobile:max-w-[250px] py-3 px-2 m-2 flex flex-col  bg-light rounded-sm">
-              <div className="my-2 flex ">
-                <img
-                  src={skill.icon}
-                  alt="developing tool icon "
-                  className="max-w-12 mr-2 "
-                />
-                <p className="font-bold ">
+            <div
+              key={skill.id}
+              className="w-full flex items-start justify-evenly my-4 md:bg-light md:max-lg:rounded-sm md:max-lg:p-4 md:max-lg:justify-between md:max-lg:w-1/2 lg:justify-center lg:py-6 lg:rounded-sm"
+            >
+              <img
+                src={skill.icon}
+                alt="development tool"
+                className="w-12 mr-6 lg:w-20"
+              />
+              <div className="mx-4">
+                <p className="font-bold text-base text-light md:text-dark-secondary lg:text-2xl">
                   {skill.title}
-                  <span className="text-sm block font-medium ">
-                    {skill.experience}
-                  </span>
                 </p>
-              </div>
-              <div className="w-full bg-gray-200 rounded-sm ">
                 <div
-                  className="bg-green-pale p-0.5 text-[10px] font-medium text-darkBlue text-center  leading-none rounded-sm"
-                  style={{ width: `${skill.progress}` }}
+                  className="flex w-[130px] lg:w-48 h-4 bg-gray-200 rounded-full overflow-hidden my-2 lg:my-6"
+                  role="progressbar"
+                  aria-valuenow={skill.progress}
+                  aria-valuemin="0"
+                  aria-valuemax="100"
                 >
-                  {skill.progress}
+                  <div
+                    className="flex flex-col justify-center rounded-full overflow-hidden bg-green-pale text-xs text-blue-dark text-center whitespace-nowrap dark:bg-blue-500 transition duration-500"
+                    style={{ width: `${skill.progress}` }}
+                  >
+                    {skill.progress}
+                  </div>
                 </div>
               </div>
+              <span className=" text-xs bg-blue-dark p-1 rounded-full text-green-light font-bold lg:p-3">
+                {skill.level}
+              </span>
             </div>
           );
         })
       )}
-    </>
+    </div>
   );
 }
 

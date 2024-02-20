@@ -2,63 +2,63 @@
   "skills": [
     {
       "title": "Wordpress",
-      "experience": "Mid-level",
+      "level": "Mid-level",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg",
       "progress": "60%",
       "id": "001"
     },
     {
       "title": "PhotoShop",
-      "experience": "Mid-level",
+      "level": "Mid-level",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
       "progress": "50%",
       "id": "002"
     },
     {
       "title": "Html",
-      "experience": "Mid-level",
+      "level": "Mid-level",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
       "progress": "80%",
       "id": "003"
     },
     {
       "title": "Css",
-      "experience": "Mid-level",
+      "level": "Mid-level",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
       "progress": "80%",
       "id": "004"
     },
     {
       "title": "Scss/Sass",
-      "experience": "Mid-level",
+      "level": "Mid-level",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
       "progress": "70%",
       "id": "007"
     },
     {
       "title": "Tailwind",
-      "experience": "Junior",
+      "level": "Junior",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       "progress": "50%",
       "id": "008"
     },
     {
       "title": "JavaScript",
-      "experience": "Junior",
+      "level": "Junior",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
       "progress": "50%",
       "id": "005"
     },
     {
       "title": "ReactJs",
-      "experience": "Trainee",
+      "level": "Trainee",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
       "progress": "30%",
       "id": "006"
     },
     {
       "title": "Github",
-      "experience": "Junior",
+      "level": "Junior",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg",
       "progress": "50%",
       "id": "009"
