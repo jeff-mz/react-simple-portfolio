@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import data from "../skills.json";
 
 function SkillCard() {
@@ -8,7 +8,7 @@ function SkillCard() {
   }, []);
 
   return (
-    <div className="w-full mx-auto flex items-center justify-center flex-col lg:grid grid-rows-3 grid-cols-2 gap-2 xl:grid-cols-3 xl:h-[90vh]">
+    <div className="container mx-auto mt-10 mb-24 grid gap-6 grid-rows-1 grid-cols-1 md:grid-rows-3 md:grid-cols-2 xl:grid-rows-3  xl:grid-cols-3 ">
       {mySkills.length < 1 ? (
         <p className=" text-green-pale text-2xl font-bold text-center animate-pulse h-screen">
           Loading...
@@ -17,36 +17,26 @@ function SkillCard() {
         mySkills.map((skill) => {
           return (
             <div
+              className="w-[300px] h-[280px] mx-auto  bg-gradient-to-r from-slate-700 to-slate-800 pt-8 rounded-t-2xl"
+              style={{ position: "relative" }}
               key={skill.id}
-              className="w-full flex items-start justify-evenly my-4 md:bg-light md:max-lg:rounded-sm md:max-lg:p-4 md:max-lg:justify-between md:max-lg:w-1/2 lg:justify-center lg:py-6 lg:rounded-sm"
             >
               <img
                 src={skill.icon}
-                alt="development tool"
-                className="w-12 mr-6 lg:w-20"
+                alt=""
+                className="w-[34px]"
+                style={{ position: "absolute", top: "16px ", left: "16px" }}
               />
-              <div className="mx-4">
-                <p className="font-bold text-base text-light md:text-dark-secondary lg:text-2xl">
+              <div className=" bg-blue-dark p-4 rounded-t-2xl min-h-[250px]">
+                <h2 className="text-xl font-bold my-4 text-slate-200">
                   {skill.title}
+                </h2>
+                <p className="text-sm my-4 text-slate-200">{skill.desc} </p>
+                <hr />
+                <p className="text-sm mt-2 text-[#BAD0FF] font-bold">
+                  Experience: <span>{skill.level}</span>
                 </p>
-                <div
-                  className="flex w-[130px] lg:w-48 h-4 bg-gray-200 rounded-full overflow-hidden my-2 lg:my-6"
-                  role="progressbar"
-                  aria-valuenow={skill.progress}
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  <div
-                    className="flex flex-col justify-center rounded-full overflow-hidden bg-green-pale text-xs text-blue-dark text-center whitespace-nowrap dark:bg-blue-500 transition duration-500"
-                    style={{ width: `${skill.progress}` }}
-                  >
-                    {skill.progress}
-                  </div>
-                </div>
               </div>
-              <span className=" text-xs bg-blue-dark p-1 rounded-full text-green-light font-bold lg:p-3">
-                {skill.level}
-              </span>
             </div>
           );
         })

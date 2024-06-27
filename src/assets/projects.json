@@ -6,6 +6,10 @@
       "img": "https://i.postimg.cc/hvqy1KML/Build-Masters.png",
       "demo": "https://venerable-cat-984ff8.netlify.app/",
       "source": "https://github.com/jeff-mz/build-masters",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+      ],
       "id": "001"
     },
     {
@@ -14,6 +18,10 @@
       "img": "https://i.postimg.cc/wTQPFRC7/checkout-form.png",
       "demo": "https://thriving-treacle-c048a3.netlify.app/",
       "source": "https://github.com/jeff-mz/checkout-form",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+      ],
       "id": "002"
     },
     {
@@ -22,6 +30,11 @@
       "img": "https://i.postimg.cc/NF7NNZPW/photographer-portofilo.png",
       "demo": "https://sweet-pixie-35a204.netlify.app/",
       "source": "https://github.com/jeff-mz/photographer-portfolio",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+      ],
       "id": "003"
     },
     {
@@ -30,6 +43,12 @@
       "img": "https://i.postimg.cc/jdbmz4kp/calculator-app-challenge.png",
       "demo": "https://stirring-pastelito-f399e3.netlify.app/",
       "source": "https://github.com/jeff-mz/calculator-with-js",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+      ],
       "id": "004"
     },
     {
@@ -38,6 +57,12 @@
       "img": "https://i.postimg.cc/XYNPP7Wx/Intro-page-challenge.png",
       "demo": "https://intr0-page-challeng.netlify.app/",
       "source": "https://github.com/jeff-mz/intro-page",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+      ],
       "id": "007"
     },
     {
@@ -46,6 +71,12 @@
       "img": "https://i.postimg.cc/N05zgJ5H/manage-landing-page-challenge.png",
       "demo": "https://manage-landin.netlify.app/",
       "source": "https://github.com/jeff-mz/manage-landing-page-challenge",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+      ],
       "id": "008"
     },
     {
@@ -54,6 +85,11 @@
       "img": "https://i.postimg.cc/4dc2cYv4/News-homepage-challenge.png",
       "demo": "https://news-homepage-s0lution.netlify.app/",
       "source": "https://github.com/jeff-mz/-News-homepage-",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+      ],
       "id": "005"
     },
     {
@@ -62,6 +98,12 @@
       "img": "https://i.postimg.cc/HLRPjwyP/rtl-e-commerce.png",
       "demo": "https://rtl-e-commerce.netlify.app/",
       "source": "https://github.com/jeff-mz/farsi-e-commerce",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+      ],
       "id": "006"
     },
     {
@@ -70,6 +112,12 @@
       "img": "https://i.postimg.cc/vZPKwFHy/rtl-landing-page.png",
       "demo": "https://rtl-landing-page.netlify.app/",
       "source": "https://github.com/jeff-mz/my-rtl-landing-page",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+      ],
       "id": "009"
     },
     {
@@ -78,6 +126,11 @@
       "img": "https://i.postimg.cc/59vDYRp5/E-commerce-using-React.png",
       "demo": "https://fluffy-mousse-9b82c8.netlify.app/",
       "source": "https://github.com/jeff-mz/shop-website",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+      ],
       "id": "009"
     },
     {
@@ -86,6 +139,11 @@
       "img": "https://i.postimg.cc/Qd3GSMSx/faq-page.png",
       "demo": "https://splendid-pony-b3aa11.netlify.app/",
       "source": "https://github.com/jeff-mz/newsletter-signup-form",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+      ],
       "id": "009"
     },
     {
@@ -94,6 +152,25 @@
       "img": "https://i.postimg.cc/FscXjSyB/news-letter-forn.png",
       "demo": "https://majestic-starlight-27f75b.netlify.app/",
       "source": "https://github.com/jeff-mz/react-FAQ-page",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+      ],
+      "id": "009"
+    },
+    {
+      "title": "Magic colors ",
+      "desc": "Website for magic color panting company",
+      "img": "https://i.postimg.cc/sfq62ZZ0/screenshot-15.png",
+      "demo": "http://magiccolours.com.au/",
+      "source": "http://magiccolours.com.au/",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+      ],
       "id": "009"
     }
   ]

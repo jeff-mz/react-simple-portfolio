@@ -3,64 +3,64 @@
     {
       "title": "Wordpress",
       "level": "Mid-level",
+      "desc": "WordPress is web publishing software you can use to create a beautiful website or blog. ",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg",
-      "progress": "60%",
       "id": "001"
     },
     {
       "title": "PhotoShop",
       "level": "Mid-level",
+      "desc": "Adobe Photoshop is a raster graphics editor developed and published by Adobe for Windows and macOS.",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
-      "progress": "50%",
       "id": "002"
     },
     {
       "title": "Html",
       "level": "Mid-level",
+      "desc": "HyperText Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
-      "progress": "80%",
       "id": "003"
     },
     {
       "title": "Css",
       "level": "Mid-level",
+      "desc": " Cascading Style Sheets (CSS) is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents. ",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
-      "progress": "80%",
       "id": "004"
     },
     {
       "title": "Scss/Sass",
       "level": "Mid-level",
+      "desc": "CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
-      "progress": "70%",
       "id": "007"
     },
     {
       "title": "Tailwind",
       "level": "Junior",
+      "desc": "Tailwind CSS is an open-source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. ",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-      "progress": "50%",
       "id": "008"
     },
     {
       "title": "JavaScript",
       "level": "Junior",
+      "desc": "JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-      "progress": "50%",
       "id": "005"
     },
     {
       "title": "ReactJs",
       "level": "Trainee",
+      "desc": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
-      "progress": "30%",
       "id": "006"
     },
     {
       "title": "Github",
       "level": "Junior",
+      "desc": "GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg",
-      "progress": "50%",
       "id": "009"
     }
   ]

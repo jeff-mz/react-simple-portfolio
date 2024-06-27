@@ -1,9 +1,8 @@
-import React from "react";
 import SkillCard from "./SkillCard";
 
 function Skills() {
   return (
-    <section className=" container mx-auto px-4">
+    <section className=" w-full mx-auto  ">
       <SkillCard />
     </section>
   );
