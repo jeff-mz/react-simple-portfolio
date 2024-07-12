@@ -17,7 +17,7 @@ function SkillCard() {
         mySkills.map((skill) => {
           return (
             <div
-              className="w-[300px] h-[250px] mx-auto bg-gradient-to-r from-slate-700 to-slate-800 pt-8 rounded-t-2xl"
+              className="w-[300px] h-[230px] mx-auto bg-gradient-to-r from-slate-700 to-slate-800 pt-8 rounded-t-2xl"
               style={{ position: "relative" }}
               key={skill.id}
             >
@@ -27,7 +27,7 @@ function SkillCard() {
                 className="w-[34px]"
                 style={{ position: "absolute", top: "16px ", left: "16px" }}
               />
-              <div className=" bg-blue-dark p-4 rounded-t-2xl min-h-[230px]">
+              <div className=" bg-blue-dark p-4 rounded-t-2xl min-h-[210px]">
                 <h2 className="text-xl font-bold my-4 text-slate-200">
                   {skill.title}
                 </h2>
