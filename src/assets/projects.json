@@ -3,7 +3,7 @@
     {
       "title": "Build Master",
       "desc": "Html static website ",
-      "img": "https://i.postimg.cc/hvqy1KML/Build-Masters.png",
+      "img": "https://i.postimg.cc/y60QyzYr/structuresitte.png",
       "demo": "https://venerable-cat-984ff8.netlify.app/",
       "source": "https://github.com/jeff-mz/build-masters",
       "icons": [
@@ -15,7 +15,7 @@
     {
       "title": "Form",
       "desc": "Html checkout form",
-      "img": "https://i.postimg.cc/wTQPFRC7/checkout-form.png",
+      "img": "https://i.postimg.cc/BnpRcfNG/checkout-form.png",
       "demo": "https://thriving-treacle-c048a3.netlify.app/",
       "source": "https://github.com/jeff-mz/checkout-form",
       "icons": [
@@ -27,7 +27,7 @@
     {
       "title": "Portfolio",
       "desc": "Photography portfolio",
-      "img": "https://i.postimg.cc/NF7NNZPW/photographer-portofilo.png",
+      "img": "https://i.postimg.cc/YStyhDwy/photographer.png",
       "demo": "https://sweet-pixie-35a204.netlify.app/",
       "source": "https://github.com/jeff-mz/photographer-portfolio",
       "icons": [
@@ -40,7 +40,7 @@
     {
       "title": "Calculator App",
       "desc": "Javascript calculator app",
-      "img": "https://i.postimg.cc/jdbmz4kp/calculator-app-challenge.png",
+      "img": "https://i.postimg.cc/dQSMgFKQ/desktop-1.png",
       "demo": "https://stirring-pastelito-f399e3.netlify.app/",
       "source": "https://github.com/jeff-mz/calculator-with-js",
       "icons": [
@@ -54,7 +54,7 @@
     {
       "title": "Intro Page",
       "desc": "Responsive intro page",
-      "img": "https://i.postimg.cc/XYNPP7Wx/Intro-page-challenge.png",
+      "img": "https://i.postimg.cc/R0r4yBKJ/remotwork.png",
       "demo": "https://intr0-page-challeng.netlify.app/",
       "source": "https://github.com/jeff-mz/intro-page",
       "icons": [
@@ -68,7 +68,7 @@
     {
       "title": "Landing Page",
       "desc": "Responsive landing page",
-      "img": "https://i.postimg.cc/N05zgJ5H/manage-landing-page-challenge.png",
+      "img": "https://i.postimg.cc/Wz8nZT6D/idlanding.png",
       "demo": "https://manage-landin.netlify.app/",
       "source": "https://github.com/jeff-mz/manage-landing-page-challenge",
       "icons": [
@@ -82,7 +82,7 @@
     {
       "title": "News Homepage ",
       "desc": "Responsive home page",
-      "img": "https://i.postimg.cc/4dc2cYv4/News-homepage-challenge.png",
+      "img": "https://i.postimg.cc/LXkScj5f/newshomepage.png",
       "demo": "https://news-homepage-s0lution.netlify.app/",
       "source": "https://github.com/jeff-mz/-News-homepage-",
       "icons": [
@@ -95,7 +95,7 @@
     {
       "title": "E-commerce",
       "desc": "Rtl, responsive shop",
-      "img": "https://i.postimg.cc/HLRPjwyP/rtl-e-commerce.png",
+      "img": "https://i.postimg.cc/xCtB25vw/rtl-e-commerce-netlify-app.png",
       "demo": "https://rtl-e-commerce.netlify.app/",
       "source": "https://github.com/jeff-mz/farsi-e-commerce",
       "icons": [
@@ -109,7 +109,7 @@
     {
       "title": "Landing page",
       "desc": "Rtl landing page",
-      "img": "https://i.postimg.cc/vZPKwFHy/rtl-landing-page.png",
+      "img": "https://i.postimg.cc/mDJW0VNm/rtllanding.png",
       "demo": "https://rtl-landing-page.netlify.app/",
       "source": "https://github.com/jeff-mz/my-rtl-landing-page",
       "icons": [
@@ -123,7 +123,7 @@
     {
       "title": "E-commerce",
       "desc": "React shop website",
-      "img": "https://i.postimg.cc/59vDYRp5/E-commerce-using-React.png",
+      "img": "https://i.postimg.cc/vBKNcjps/ecommerce.png",
       "demo": "https://fluffy-mousse-9b82c8.netlify.app/",
       "source": "https://github.com/jeff-mz/shop-website",
       "icons": [
@@ -134,9 +134,9 @@
       "id": "009"
     },
     {
-      "title": "FAQ page",
-      "desc": "React FAQ page",
-      "img": "https://i.postimg.cc/Qd3GSMSx/faq-page.png",
+      "title": "Newsletter Form",
+      "desc": "Responsive newsletter",
+      "img": "https://i.postimg.cc/zfRSDnyP/responsive-form.png",
       "demo": "https://splendid-pony-b3aa11.netlify.app/",
       "source": "https://github.com/jeff-mz/newsletter-signup-form",
       "icons": [
@@ -147,9 +147,9 @@
       "id": "009"
     },
     {
-      "title": "Newsletter Form",
-      "desc": "Responsive newsletter",
-      "img": "https://i.postimg.cc/FscXjSyB/news-letter-forn.png",
+      "title": "FAQ page",
+      "desc": "React FAQ page",
+      "img": "https://i.postimg.cc/zXvfmRkH/faq.png",
       "demo": "https://majestic-starlight-27f75b.netlify.app/",
       "source": "https://github.com/jeff-mz/react-FAQ-page",
       "icons": [
@@ -162,7 +162,7 @@
     {
       "title": "Magic colors ",
       "desc": "Website for magic color panting company",
-      "img": "https://i.postimg.cc/sfq62ZZ0/screenshot-15.png",
+      "img": "https://i.postimg.cc/Gp8Yb5JY/desktop.png",
       "demo": "http://magiccolours.com.au/",
       "source": "http://magiccolours.com.au/",
       "icons": [

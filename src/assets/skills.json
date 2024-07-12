@@ -38,9 +38,16 @@
     {
       "title": "Tailwind",
       "level": "Junior",
-      "desc": "Tailwind CSS is an open-source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. ",
+      "desc": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       "id": "008"
+    },
+    {
+      "title": "Bootstrap",
+      "level": "Junior",
+      "desc": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+      "id": "009"
     },
     {
       "title": "JavaScript",
@@ -52,16 +59,16 @@
     {
       "title": "ReactJs",
       "level": "Trainee",
-      "desc": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies",
+      "desc": "React is a free and open-source front-end JavaScript library for building user interfaces based on components.",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
       "id": "006"
     },
     {
       "title": "Github",
       "level": "Junior",
-      "desc": "GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.",
+      "desc": "GitHub is a developer platform that allows developers to create, store, manage and share their code.",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg",
-      "id": "009"
+      "id": "010"
     }
   ]
 }
