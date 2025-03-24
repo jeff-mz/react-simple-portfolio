@@ -18,7 +18,7 @@ function SkillCard() {
           return (
             <div
               key={skill.id}
-              className="group bg-dark-secondary rounded-xl p-6 transition-all duration-300 hover:shadow-xl  hover:-translate-y-1 mx-3"
+              className="group bg-light-secondary dark:bg-dark-secondary rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 mx-3"
             >
               {/* Header with Icon and Title */}
               <div className="flex items-center gap-4 mb-2">
@@ -30,7 +30,7 @@ function SkillCard() {
                   />
                 </div>
                 <div>
-                  <h2 className="text-xl font-bold text-light">
+                  <h2 className="text-xl font-bold text-light-text-primary dark:text-dark-text-primary">
                     {skill.title}
                   </h2>
                   <span className="text-sm font-medium text-green-pale">
@@ -40,7 +40,7 @@ function SkillCard() {
               </div>
 
               {/* Description */}
-              <p className="text-gray-300 text-sm leading-relaxed">
+              <p className="text-light-text-secondary dark:text-dark-text-secondary text-sm leading-relaxed">
                 {skill.desc}
               </p>
             </div>

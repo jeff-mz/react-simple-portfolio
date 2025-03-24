@@ -5,17 +5,36 @@ import {
   FaGithub,
   FaEnvelopeOpen,
   FaTwitter,
+  FaSun,
+  FaMoon,
 } from "react-icons/fa";
+import { useTheme } from "../context/ThemeContext";
+
 function Header() {
+  const { isDarkMode, toggleTheme } = useTheme();
+
   return (
-    <header className=" container mx-auto flex justify-around py-4 items-center ">
+    <header className="container mx-auto flex justify-around py-4 items-center">
       <img
         src={logo}
-        className=" w-16 h-16 md:w-20 md:h-20 xl:w-24 xl:h-24"
+        className="w-16 h-16 md:w-20 md:h-20 xl:w-24 xl:h-24"
         alt="my logo created with j and m letters"
       />
 
-      <ul className="flex justify-between w-1/2">
+      <ul className="flex justify-between w-1/2 items-center">
+        <li>
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            aria-label="Toggle theme"
+          >
+            {isDarkMode ? (
+              <FaSun className="text-dark-text-secondary desktop:text-3xl" />
+            ) : (
+              <FaMoon className="text-light-text-secondary desktop:text-3xl" />
+            )}
+          </button>
+        </li>
         <li>
           <a
             href="https://github.com/jeff-mz"
@@ -23,7 +42,7 @@ function Header() {
             className="no-underline"
             rel="noreferrer"
           >
-            <FaGithub className="text-light hover:text-green-light desktop:text-3xl" />
+            <FaGithub className="text-light-text-secondary  dark:text-dark-text-secondary hover:text-green-light desktop:text-3xl" />
           </a>
         </li>
         <li>
@@ -33,7 +52,7 @@ function Header() {
             className="no-underline"
             rel="noreferrer"
           >
-            <FaLinkedinIn className="text-light hover:text-green-light  desktop:text-3xl" />
+            <FaLinkedinIn className="text-light-text-secondary  dark:text-dark-text-secondary hover:text-green-light desktop:text-3xl" />
           </a>
         </li>
         <li>
@@ -43,7 +62,7 @@ function Header() {
             className="no-underline"
             rel="noreferrer"
           >
-            <FaTwitter className="text-light hover:text-green-light  desktop:text-3xl" />
+            <FaTwitter className="text-light-text-secondary  dark:text-dark-text-secondary hover:text-green-light desktop:text-3xl" />
           </a>
         </li>
         <li>
@@ -53,7 +72,7 @@ function Header() {
             className="no-underline"
             rel="noreferrer"
           >
-            <FaWhatsapp className="text-light hover:text-green-light  desktop:text-3xl" />
+            <FaWhatsapp className="text-light-text-secondary  dark:text-dark-text-secondary hover:text-green-light desktop:text-3xl" />
           </a>
         </li>
         <li>
@@ -63,11 +82,12 @@ function Header() {
             className="no-underline"
             rel="noreferrer"
           >
-            <FaEnvelopeOpen className="text-light hover:text-green-light  desktop:text-3xl" />
+            <FaEnvelopeOpen className="text-light-text-secondary  dark:text-dark-text-secondary hover:text-green-light desktop:text-3xl" />
           </a>
         </li>
       </ul>
     </header>
   );
 }
+
 export default Header;

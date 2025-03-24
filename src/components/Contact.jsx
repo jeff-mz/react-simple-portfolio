@@ -72,13 +72,13 @@ function Contact() {
 
   return (
     <section className="container mx-auto px-4 h-max" id="contact">
-      <div className="max-w-6xl mx-auto h-max ">
+      <div className="max-w-6xl mx-auto h-max">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-light mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-light-text-primary dark:text-dark-text-primary mb-4">
             Get In Touch
           </h1>
-          <p className="text-light/80 text-lg max-w-2xl mx-auto">
+          <p className="text-light-text-secondary dark:text-dark-text-secondary text-lg max-w-2xl mx-auto">
             I&apos;m always open to discussing new projects, creative ideas or
             opportunities to be part of your visions.
           </p>
@@ -86,10 +86,13 @@ function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-dark-secondary rounded-xl p-5 shadow-xl">
+          <div className="bg-light-secondary dark:bg-dark-secondary rounded-xl p-5 shadow-xl">
             <form onSubmit={handleSubmit} className="space-y-2">
               <div>
-                <label htmlFor="name" className="block text-light mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-light-text-primary dark:text-dark-text-primary mb-2"
+                >
                   Your Name
                 </label>
                 <input
@@ -98,12 +101,15 @@ function Contact() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 bg-dark-primary border border-green-pale/20 rounded-lg text-light focus:outline-none focus:border-green-pale transition-colors"
+                  className="w-full px-4 py-2 bg-light-primary dark:bg-dark-primary border border-green-pale/20 rounded-lg text-light-text-primary dark:text-dark-text-primary focus:outline-none focus:border-green-pale transition-colors"
                   required
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-light mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-light-text-primary dark:text-dark-text-primary mb-2"
+                >
                   Your Email
                 </label>
                 <input
@@ -112,12 +118,15 @@ function Contact() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 bg-dark-primary border border-green-pale/20 rounded-lg text-light focus:outline-none focus:border-green-pale transition-colors"
+                  className="w-full px-4 py-2 bg-light-primary dark:bg-dark-primary border border-green-pale/20 rounded-lg text-light-text-primary dark:text-dark-text-primary focus:outline-none focus:border-green-pale transition-colors"
                   required
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-light mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-light-text-primary dark:text-dark-text-primary mb-2"
+                >
                   Your Message
                 </label>
                 <textarea
@@ -126,13 +135,13 @@ function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   rows="4"
-                  className="w-full px-4 py-2 bg-dark-primary border border-green-pale/20 rounded-lg text-light focus:outline-none focus:border-green-pale transition-colors"
+                  className="w-full px-4 py-2 bg-light-primary dark:bg-dark-primary border border-green-pale/20 rounded-lg text-light-text-primary dark:text-dark-text-primary focus:outline-none focus:border-green-pale transition-colors"
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full py-2 bg-green-pale text-dark-secondary font-medium rounded-lg hover:bg-green-light transition-colors duration-300"
+                className="w-full py-2 bg-green-pale text-dark-primary font-medium rounded-lg hover:bg-green-light transition-colors duration-300"
               >
                 Send Message
               </button>
@@ -147,7 +156,7 @@ function Contact() {
                 href={contact.link}
                 target="_blank"
                 rel="noreferrer"
-                className={`group bg-dark-secondary rounded-xl p-6 transition-all duration-300 hover:-translate-y-1 ${
+                className={`group bg-light-secondary dark:bg-dark-secondary rounded-xl p-6 transition-all duration-300 hover:-translate-y-1 ${
                   contact.isFullWidth ? "md:col-span-2" : ""
                 }`}
               >
@@ -156,8 +165,12 @@ function Contact() {
                     <contact.icon className="text-2xl text-green-pale" />
                   </div>
                   <div>
-                    <h3 className="text-light font-medium">{contact.title}</h3>
-                    <p className="text-light/60 text-sm">{contact.text}</p>
+                    <h3 className="text-light-text-primary dark:text-dark-text-primary font-medium">
+                      {contact.title}
+                    </h3>
+                    <p className="text-light-text-secondary dark:text-dark-text-secondary text-sm">
+                      {contact.text}
+                    </p>
                   </div>
                 </div>
               </a>
