@@ -1,13 +1,26 @@
-import React from "react";
-import hero from "../images/hero-img.png";
+import React, { useState, useEffect } from "react";
+import hero from "../assets/images/hero-img.png";
+
 function About() {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
+
   return (
     <section
-      className=" container mx-auto p-4 flex flex-col-reverse lg:flex-row items-center"
+      className="container mx-auto p-4 flex flex-col-reverse lg:flex-row items-center"
       id="about"
     >
       {/* hero img  */}
-      <img src={hero} alt="a boy is coding." className="w-full lg:w-1/2" />
+      <img
+        src={hero}
+        alt="a boy is coding."
+        className={`w-full lg:w-1/2 transition-all duration-1000 transform ${
+          isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+        }`}
+      />
 
       {/* hero text  */}
       <div className="w-full lg:w-1/2 md:ml-4">

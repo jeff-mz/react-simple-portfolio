@@ -1,5 +1,4 @@
-import React from "react";
-import logo from "../images/logo.png";
+import logo from "../assets/images/logo.png";
 import {
   FaWhatsapp,
   FaLinkedinIn,
@@ -7,7 +6,7 @@ import {
   FaEnvelopeOpen,
   FaTwitter,
 } from "react-icons/fa";
-function Navigation() {
+function Header() {
   return (
     <header className=" container mx-auto flex justify-around py-4 items-center ">
       <img
@@ -22,6 +21,7 @@ function Navigation() {
             href="https://github.com/jeff-mz"
             target="_blank"
             className="no-underline"
+            rel="noreferrer"
           >
             <FaGithub className="text-light hover:text-green-light desktop:text-3xl" />
           </a>
@@ -31,6 +31,7 @@ function Navigation() {
             href="https://www.linkedin.com/in/jafar-mirzapoor-b69b3b293/"
             target="_blank"
             className="no-underline"
+            rel="noreferrer"
           >
             <FaLinkedinIn className="text-light hover:text-green-light  desktop:text-3xl" />
           </a>
@@ -40,6 +41,7 @@ function Navigation() {
             href="https://twitter.com/mzj8181"
             target="_blank"
             className="no-underline"
+            rel="noreferrer"
           >
             <FaTwitter className="text-light hover:text-green-light  desktop:text-3xl" />
           </a>
@@ -49,6 +51,7 @@ function Navigation() {
             href="https://wa.me/qr/G6DFXUI7MZ6QN1"
             target="_blank"
             className="no-underline"
+            rel="noreferrer"
           >
             <FaWhatsapp className="text-light hover:text-green-light  desktop:text-3xl" />
           </a>
@@ -58,6 +61,7 @@ function Navigation() {
             href="mailto:jafarmirzapoor11@gmail.com"
             target="_blank"
             className="no-underline"
+            rel="noreferrer"
           >
             <FaEnvelopeOpen className="text-light hover:text-green-light  desktop:text-3xl" />
           </a>
@@ -66,5 +70,4 @@ function Navigation() {
     </header>
   );
 }
-
-export default Navigation;
+export default Header;

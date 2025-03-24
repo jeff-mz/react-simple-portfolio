@@ -4,14 +4,39 @@
 
 /* CSS RESET  */
 * {
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-#contact,
-#about {
-  @media (min-width: 1440px) {
-    height: 90vh;
+
+html,
+body {
+  height: max-content;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .custom-height {
+    height: 200vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-height {
+    height: 150vh;
+  }
+}
+@media (min-width: 1024px) {
+  .custom-height {
+    height: 100vh;
   }
 }
 .emoji {
@@ -19,7 +44,7 @@
   display: inline-block;
   transform-origin: 70% 70%;
 }
-@keyframes wave {
+x @keyframes wave {
   0% {
     transform: rotate(0deg);
   }

@@ -1,8 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <footer className=" w-full h-16 mx-auto px-2  ">
+    <footer className="w-full h-16 mx-auto px-2">
       <ul className=" w-full mx-auto flex flex-wrap items-center justify-evenly mt-3 text-sm font-medium text-gray-200">
         <li>
           <Link
