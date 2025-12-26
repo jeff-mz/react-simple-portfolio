@@ -58,7 +58,7 @@ function Contact() {
           <h1 className="text-4xl md:text-5xl font-bold text-light-text-primary dark:text-dark-text-primary mb-4">
             Get In Touch
           </h1>
-          <p className="text-left text-light-text-secondary dark:text-dark-text-secondary text-lg max-w-2xl mx-auto">
+          <p className="text-left text-light-text-secondary dark:text-dark-text-secondary text-lg max-w-2xl">
             I&apos;m always open to discussing new projects, creative ideas or
             opportunities to be part of your visions.
           </p>
