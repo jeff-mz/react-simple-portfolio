@@ -64,7 +64,7 @@ function Contact() {
         </div>
 
         {/* Contact Cards with varied layouts */}
-        <div className="space-y-4">
+        <div className="py-10">
           {/* Primary Contact - Full Width Email */}
           {contactInfo
             .filter((contact) => contact.id === 5)
