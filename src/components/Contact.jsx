@@ -124,13 +124,6 @@ function Contact() {
               ))}
           </div>
         </div>
-
-        {/* Optional: Quick note below contacts */}
-        <div className="mt-12 pt-8 border-t border-light-text-secondary/10 dark:border-dark-text-secondary/10">
-          <p className="text-sm text-light-text-secondary dark:text-dark-text-secondary">
-            Reach out via any channel that works best for you. I typically respond within 24 hours.
-          </p>
-        </div>
       </div>
     </section>
   );
